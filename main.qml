@@ -170,6 +170,7 @@ ApplicationWindow {
             anchors.right: eegRender.right
             anchors.top: eegRender.top
             anchors.bottom: eegRender.bottom
+            pixelDensity: Screen.pixelDensity
         }
 
         EEGRender {
